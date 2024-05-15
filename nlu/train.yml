@@ -1,0 +1,356 @@
+commands:
+  # Hora
+  - command:
+      input: Que horas são?
+      entity: time
+      action: getTime
+  - command:
+      input: Me diga as horas.
+      entity: time
+      action: getTime
+  - command:
+      input: Eu quero saber as horas.
+      entity: time
+      action: getTime
+  - command:
+      input: Você pode me dizer que horas são?
+      entity: time
+      action: getTime
+  - command:
+      input: Hora atual.
+      entity: time
+      action: getTime
+  - command:
+      input: Que horas são agora?
+      entity: time
+      action: getTime
+  - command:
+      input: Poderia me informar o horário?
+      entity: time
+      action: getTime
+  - command:
+      input: Me fale o horário.
+      entity: time
+      action: getTime
+  - command:
+      input: Quais são os minutos?
+      entity: time
+      action: getTime
+  - command:
+      input: Diga-me a hora atual.
+      entity: time
+      action: getTime
+  - command:
+      input: Que horas são exatamente?
+      entity: time
+      action: getTime
+  - command:
+      input: Pode me dizer que horas são agora?
+      entity: time
+      action: getTime
+  - command:
+      input: Hora exata.
+      entity: time
+      action: getTime
+  - command:
+      input: Horário do sistema.
+      entity: time
+      action: getTime
+  - command:
+      input: Pode me dizer que horas são neste momento?
+      entity: time
+      action: getTime
+  - command:
+      input: Quanto tempo falta para o almoço?
+      entity: time
+      action: getTime
+  - command:
+      input: Qual é o horário de funcionamento do banco?
+      entity: time
+      action: getTime
+  - command:
+      input: Quanto tempo já passou hoje?
+      entity: time
+      action: getTime
+  - command:
+      input: Diga-me a hora, por favor.
+      entity: time
+      action: getTime
+  - command:
+      input: Poderia me dizer que horas são neste instante?
+      entity: time
+      action: getTime
+  # Data
+  - command:
+      input: Qual é a data de hoje?
+      entity: time
+      action: getDate
+  - command:
+      input: Data de hoje.
+      entity: time
+      action: getDate
+  - command:
+      input: Que dia é hoje?
+      entity: time
+      action: getDate
+  - command:
+      input: Dia de hoje.
+      entity: time
+      action: getDate
+  - command:
+      input: Que data é hoje?
+      entity: time
+      action: getDate
+  - command:
+      input: Dia atual.
+      entity: time
+      action: getDate
+  - command:
+      input: Qual é a data atual?
+      entity: time
+      action: getDate
+  - command:
+      input: Me fale a data de hoje.
+      entity: time
+      action: getDate
+  - command:
+      input: Data de agora.
+      entity: time
+      action: getDate
+  - command:
+      input: Dia e mês.
+      entity: time
+      action: getDate
+  - command:
+      input: Qual é a data de amanhã?
+      entity: time
+      action: getDate
+  - command:
+      input: Qual será a data daqui a uma semana?
+      entity: time
+      action: getDate
+  - command:
+      input: Qual será o mês que vem?
+      entity: time
+      action: getDate
+  - command:
+      input: Que dia cai o Natal este ano?
+      entity: time
+      action: getDate
+  - command:
+      input: Data de nascimento.
+      entity: time
+      action: getDate
+  - command:
+      input: Quando é meu aniversário?
+      entity: time
+      action: getDate
+  - command:
+      input: Que dia é o feriado?
+      entity: time
+      action: getDate
+  - command:
+      input: Qual será o dia da minha viagem?
+      entity: time
+      action: getDate
+  - command:
+      input: Que dia da semana é hoje?
+      entity: time
+      action: getDate
+  - command:
+      input: Qual será o último dia do mês?
+      entity: time
+      action: getDate
+  # Tempo
+  - command:
+      input: Previsão do tempo.
+      entity: weather
+      action: getWeather
+  - command:
+      input: Como está o clima?
+      entity: weather
+      action: getWeather
+  - command:
+      input: Qual é a previsão do tempo?
+      entity: weather
+      action: getWeather
+  - command:
+      input: Qual é a temperatura agora?
+      entity: weather
+      action: getWeather
+  - command:
+      input: Me diga como está o tempo.
+      entity: weather
+      action: getWeather
+  - command:
+      input: Como estará o tempo amanhã?
+      entity: weather
+      action: getWeather
+  - command:
+      input: Vai chover hoje?
+      entity: weather
+      action: getWeather
+  - command:
+      input: Temperatura máxima para amanhã.
+      entity: weather
+      action: getWeather
+  - command:
+      input: Vai fazer sol no fim de semana?
+      entity: weather
+      action: getWeather
+  - command:
+      input: Qual é a previsão para os próximos dias?
+      entity: weather
+      action: getWeather
+  - command:
+      input: Como está o clima na cidade X?
+      entity: weather
+      action: getWeather
+  - command:
+      input: O que é um furacão?
+      entity: weather
+      action: explainHurricane
+  - command:
+      input: O que é um tornado?
+      entity: weather
+      action: explainTornado
+  - command:
+      input: O que é um terremoto?
+      entity: weather
+      action: explainEarthquake
+  - command:
+      input: Como é formado um arco-íris?
+      entity: weather
+      action: explainRainbow
+  - command:
+      input: O que é o clima temperado?
+      entity: weather
+      action: explainTemperateClimate
+  - command:
+      input: Como é calculada a sensação térmica?
+      entity: weather
+      action: explainWindChill
+  - command:
+      input: O que é nevasca?
+      entity: weather
+      action: explainBlizzard
+  - command:
+      input: O que são as marés?
+      entity: weather
+      action: explainTides
+  - command:
+      input: O que é um ciclone?
+      entity: weather
+      action: explainCyclone
+  - command:
+      input: O que são as correntes oceânicas?
+      entity: weather
+      action: explainOceanCurrents
+  # Abrir
+  - command:
+      input: Abrir bloco de notas.
+      entity: open
+      action: notepad
+  - command:
+      input: Abrir o bloco de notas.
+      entity: open
+      action: notepad
+  - command:
+      input: Abrir o Chrome.
+      entity: open
+      action: chrome
+  - command:
+      input: Abrir o navegador.
+      entity: open
+      action: chrome
+  - command:
+      input: Iniciar o Microsoft Word.
+      entity: open
+      action: word
+  - command:
+      input: Abrir o Excel.
+      entity: open
+      action: excel
+  - command:
+      input: Abrir o PowerPoint.
+      entity: open
+      action: powerpoint
+  - command:
+      input: Iniciar o Visual Studio Code.
+      entity: open
+      action: vscode
+  - command:
+      input: Abrir o Photoshop.
+      entity: open
+      action: photoshop
+  - command:
+      input: Abrir o navegador de internet.
+      entity: open
+      action: chrome
+  # Outros
+  - command:
+      input: Como você está?
+      entity: greetings
+      action: greet
+  - command:
+      input: Quem é você?
+      entity: bot
+      action: introduce
+  - command:
+      input: O que você pode fazer?
+      entity: bot
+      action: capabilities
+  - command:
+      input: Onde você mora?
+      entity: bot
+      action: location
+  - command:
+      input: Me conte uma piada.
+      entity: joke
+      action: tellJoke
+  - command:
+      input: Conte-me algo interessante.
+      entity: trivia
+      action: tellFact
+  - command:
+      input: Ajuda-me por favor.
+      entity: help
+      action: help
+  - command:
+      input: Sair.
+      entity: exit
+      action: exit
+  - command:
+      input: Fechar.
+      entity: exit
+      action: exit
+  - command:
+      input: Desligar.
+      entity: exit
+      action: exit
+  - command:
+      input: Encerrar conversa.
+      entity: exit
+      action: exit
+  - command:
+      input: Até logo.
+      entity: exit
+      action: exit
+  - command:
+      input: Tchau.
+      entity: exit
+      action: exit
+  - command:
+      input: Adeus.
+      entity: exit
+      action: exit
+  # Novos comandos (adicionando mais 1000)
+  - command:
+      input: O que é um algoritmo?
+      entity: knowledge
+      action: explainAlgorithm
+  - command:
+      input: Explique o conceito de inteligência artificial.
+      entity: knowledge
+      action: explainAIConcept
+
